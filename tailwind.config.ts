@@ -66,6 +66,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				brand: {
+					purple: '#8B5CF6',
+					magenta: '#D946EF',
+					orange: '#F97316',
+					blue: '#0EA5E9',
+					yellow: '#FBBF24',
+					green: '#10B981'
 				}
 			},
 			borderRadius: {
@@ -122,6 +130,13 @@ export default {
 				'slide-in': 'slide-in 0.3s ease-out',
 				'slide-up': 'slide-up 0.5s ease-out',
 				'text-reveal': 'text-reveal 0.5s ease-out forwards'
+			},
+			backgroundImage: {
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+				'hero-gradient': 'linear-gradient(90deg, hsla(277, 75%, 84%, 1) 0%, hsla(297, 50%, 51%, 1) 100%)',
+				'section-gradient': 'linear-gradient(90deg, hsla(59, 86%, 68%, 1) 0%, hsla(134, 36%, 53%, 1) 100%)',
+				'card-gradient': 'linear-gradient(108deg, rgba(242,245,139,1) 17.7%, rgba(148,197,20,0.68) 91.2%)',
+				'cta-gradient': 'linear-gradient(90deg, hsla(24, 100%, 83%, 1) 0%, hsla(341, 91%, 68%, 1) 100%)'
 			}
 		}
 	},
